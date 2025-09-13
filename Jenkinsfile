@@ -17,7 +17,7 @@ pipeline {
         stage('Docker Build & Run') {
             steps {
                 sh 'docker build -t supervehicles .'
-                sh 'docker run -d -p 8080:8080 supervehicles'
+                sh 'docker run -d -p 7584:8080 supervehicles'
             }
         }
     }
