@@ -25,7 +25,7 @@ pipeline {
                   docker rm -f supervehicles_container || true
 
                   # Run new container with fixed name and port 7584
-                  docker run -d -p 7584:8080 --name supervehicles_container supervehicles
+                  docker run -d -p 9786:8080 --name supervehicles_container supervehicles
                 '''
             }
         }
