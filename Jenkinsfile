@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vijay254452/supervehicles.git'
+                git branch: 'main',
+                    url: 'https://github.com/vijay254452/supervehicles.git'
             }
         }
         stage('Build') {
