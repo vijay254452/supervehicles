@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuperVehicles</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuperVehicles</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #222; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; font-size: 24px; }
+    nav a { color: #fff; margin-left: 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .gallery { display: flex; gap: 20px; flex-wrap: wrap; }
+    .gallery img { width: 200px; height: 120px; object-fit: cover; border-radius: 5px; }
+    footer { background: #222; color: #fff; text-align: center; padding: 15px; margin-top: 20px; }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="SuperVehicles Logo" class="logo">
-        <nav>
-            <a href="#superbikes">Superbikes</a>
-            <a href="#cars">Cars</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="superbikes">
-        <h1>Superbikes</h1>
-        <div class="gallery">
-            <img src="images/superbike1.jpg" alt="Superbike 1">
-            <img src="images/superbike2.jpg" alt="Superbike 2">
-        </div>
-    </section>
+  <header>
+    <h1>SuperVehicles Logo</h1>
+    <nav>
+      <a href="#superbikes">Superbikes</a>
+      <a href="#cars">Cars</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="cars">
-        <h1>Cars</h1>
-        <div class="gallery">
-            <img src="images/car1.jpg" alt="Car 1">
-            <img src="images/car2.jpg" alt="Car 2">
-        </div>
-    </section>
+  <section id="superbikes">
+    <h2>Superbikes</h2>
+    <div class="gallery">
+      <img src="images/superbike1.jpg" alt="Superbike 1">
+      <img src="images/superbike2.jpg" alt="Superbike 2">
+    </div>
+  </section>
 
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <p>Email: contact@supervehicles.com</p>
-        <p>Phone: +91 9876543210</p>
-    </section>
+  <section id="cars">
+    <h2>Cars</h2>
+    <div class="gallery">
+      <img src="images/car1.jpg" alt="Car 1">
+      <img src="images/car2.jpg" alt="Car 2">
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 SuperVehicles. All rights reserved.</p>
-    </footer>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@supervehicles.com">contact@supervehicles.com</a></p>
+    <p>Phone: +91 9876543210</p>
+  </section>
+
+  <footer>
+    © 2025 SuperVehicles. All rights reserved.
+  </footer>
+
 </body>
 </html>
 
